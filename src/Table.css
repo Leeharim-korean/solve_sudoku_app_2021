@@ -1,0 +1,14 @@
+td {
+  border: 1px solid #333;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  padding: 0;
+  margin: 0px;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
