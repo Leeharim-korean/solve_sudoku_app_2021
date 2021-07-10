@@ -3,7 +3,7 @@ import "./Table.css";
 
 function Table({ id }) {
     return (
-        <td >{id}</td> 
+        id === 0 ? <td></td> : <td>{id}</td>
     );
 }
 
