@@ -1,12 +1,13 @@
 .big {
   display: flex;
   flex-wrap: wrap;
-  width: 243px;
-  height: 243px;
+  width: 249px;
+  height: 249px;
 }
 .small {
   display: flex;
   flex-wrap: wrap;
   width: 81px;
   height: 81px;
+  border: 1px solid;
 }

@@ -34,16 +34,17 @@ const bigCell = [
 
 function App() {
   return (
-   <div>
+   <section>
      <h1>Hello!</h1>
-     <tbody class="big">
-        {bigCell.map(cell => (
-            <div class="small">{bigCell.map(cell =><Table id={cell.id}/>)}</div>
+     <table>
+         <tbody className="big">
+             {bigCell.map(cell => (
+             <tr key={cell.id} className="small">{bigCell.map(cell =><Table key={cell.id} id={cell.id}/>)}</tr>
              )
-        )}
-     </tbody>
-     
-   </div>
+             )}
+         </tbody>
+     </table>
+   </section>
   );
 }
 
